@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Secret Santa</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header id="header-background">
+            <h1>Secret Santa</h1>
+        </header>
+        <div id="form">
+            <form onsubmit="return addSantas()" name="Santa[]">
+                <div class="form-elements" id="name-line">
+                    <div>
+                        <label for="name" id="name" class="labels">Name</label>
+                    </div>
+                    <input type="text" id="namebox">
+                </div>
+                <div class="form-elements" id="interests-line">
+                    <div>
+                        <label for="Interests" id="interests-label" class="labels">Interests</label>
+                    </div>
+                    <textarea id="interest-entry" name="Santa[][Interests]" rows="4" cols="50" id="interests"></textarea>
+                </div>
+                <div class="form-elements" id="submit-button">
+                    <input type="submit" value="Submit" id="submit">
+                </div>
+            </form>
+        </div>
+        <div id="draw-name">
+            <h3>Draw names here!</h3>
+            <input type="button" id="draw-names" value="Draw Name">
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
