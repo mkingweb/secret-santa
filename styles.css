@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(Images/ChristmasBody.jpg);
+    height; 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: ChristmasFont;
+    src: url(Fonts/christmas_bell/Christmas%20Bell%20-%20Personal%20Use.otf)
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    line-height: 1.5;
+    font-family: ChristmasFont;
+    font-size: 75px
+}
+
+
+#form {
+    text-align: center;
+}
+
+#name-line {
+    margin: 50px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+#name-box {
+    width: 300px;
+    height: 30px;
+}
+
+#interests-line {
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+#interest-entry {
+    width: 400px;
+    height: 300px;
+    font-size: 30px;
+}
+
+#interests-label {
+    top: 10px;
+}
+
+#submit {
+    height: 25px;
+    width: 75px;
+}
+
+#submit:hover {
+    background-color: #7c0A02;
+    color: white;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+#draw-name {
+    text-align: center;
+}
+
+#draw-names {
+    margin-top: 25px;
+    height: 35px;
+    width: 100px;
+}
+
+#draw-names:hover {
+    background-color: #7c0A02;
+    color: white;
+}
